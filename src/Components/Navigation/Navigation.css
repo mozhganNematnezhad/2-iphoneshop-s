@@ -1,0 +1,96 @@
+.mainNavigation {
+    width: 100%;
+    height: 4.5rem;
+    background-color: #ede9fe;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    position: sticky !important;;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .mainNavigation nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    height: 100%;
+    flex-direction: row-reverse;
+    margin: 0 2rem;
+   
+  }
+  
+  .mainNavigation ul {
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }
+  
+  /* .mainNavigation li {
+    margin: 0 2rem;
+  } */
+  
+  .mainNavigation a {
+    /* display: block; */
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+  }
+  
+  .navItem a:hover,
+  .activeLink {
+    border-radius: 5px;
+    color: #6d28d9;
+    background-color: #fff;
+  }
+  
+  .btn {
+    position: relative;
+    /* margin-right:2rem */
+  }
+  .btn .cart {
+    font-size: 1.3rem;
+  }
+  
+  .cartNumber {
+    background-color: #6d28d9;
+    /* padding:0 0.4rem; */
+    width: 20px;
+    height: 20px;
+    border-radius: 2rem;
+    color: white;
+    position: absolute;
+    top: 3px;
+    right: 18px;
+    font-size:1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  .cartNumber0 {
+    background-color: #d92828;
+    /* padding:0 0.4rem; */
+    width: 20px;
+    height: 20px;
+    border-radius: 2rem;
+    color: white;
+    position: absolute;
+    top: 3px;
+    right: 18px;
+    font-size:1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .account{
+    font-size:1.2rem;
+    color: #6d28d9;
+    margin-right:1rem
+  
+  }
+  
+  @media (max-width: 580px){
+    .brand{
+      font-size:1rem
+    }
+  }

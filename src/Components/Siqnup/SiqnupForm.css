@@ -1,0 +1,35 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.w-input{
+    width: 25%;
+    padding:0.8rem 0;
+}
+
+.btn-custom{
+    background-color: #6d28d9;
+    padding: 0.7rem 5rem;
+    /* margin-bottom: 5rem; */
+}
+
+.btn-custom:disabled{
+    cursor: not-allowed;
+    background-color: #ccc;
+    color: #444
+}
+
+/* input:focus{
+    outline:none;
+    border: 2px solid #6d28d9;
+} */
+
+@media (max-width: 991px){
+    .w-input{
+        width: 60%;
+    }
+}
