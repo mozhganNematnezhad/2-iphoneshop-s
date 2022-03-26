@@ -46,7 +46,7 @@ const LoginForm = () => {
 
       setError(null)
       // navigate("/")
-      navigate(redirect)
+      navigate("redirect")
 
     } catch (error) {
       // console.log(error.response.data);

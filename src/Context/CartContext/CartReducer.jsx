@@ -46,6 +46,7 @@ const deleteCart = (state, action) => {
   }
 };
 
+
 const CartReducer = (state, action) => {
   switch (action.type) {
     case "addtoCart": {
@@ -55,7 +56,7 @@ const CartReducer = (state, action) => {
     case "deleteCart": {
       return deleteCart(state, action);
     }
-
+  
     default:
       return state;
   }
